@@ -6,6 +6,7 @@ const ShapeGenerator = () => {
   const [width, setWidth] = useState("");
   const [height, setHeight] = useState("");
   const [shape, setShape] = useState("rectangle");
+  const [color, setColor] = useState("#000000");
 
   const handleWidthChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setWidth(e.target.value);
@@ -19,21 +20,48 @@ const ShapeGenerator = () => {
     setShape(e.target.value);
   };
 
+  const handleColorChange = (e: React.ChangeEventHandler<HTMLInputElement>) => {
+    setColor(e.target.value);
+  };
   const generateCSSCode = () => {
     let cssCode = "";
-    if (shape === "rectangle") {
-      cssCode = `
+    switch (shape) {
+      case 'rectangle':
+        cssCode = `
         width: ${width}px;
         height: ${height}px;
-        background-color: blue;
+        background-color: ${color};
       `;
-    } else if (shape === "circle") {
-      cssCode = `
+        break;
+      case 'circle':
+        cssCode = `
         width: ${width}px;
         height: ${height}px;
         border-radius: 50%;
-        background-color: red;
+        background-color: ${color};
       `;
+        break;
+      case 'triangle':
+        cssCode = `
+        width: '0',
+        height: '0',
+        borderLeft: ${width}px solid transparent,
+        borderRight: ${width}px solid transparent,
+        borderBottom: ${height}px solid ${color},
+        border-radius: 50%;
+        background-color: ${color};
+      `;
+        break;
+      case 'parallelogram':
+        cssCode = `
+        width: ${width}px;
+        height: ${height}px;
+        transform: skew(20deg)
+        background-color: ${color};
+      `;
+        break;
+      default:
+        break;
     }
     return cssCode;
   };
@@ -79,10 +107,23 @@ const ShapeGenerator = () => {
             <option value="rectangle">Rectangle</option>
             <option value="circle">Circle</option>
             <option value="triangle">Triangle</option>
+            <option value="parallelogram">Parallelogram</option>
           </select>
         </div>
+                <div className="flex-1/2">
+          <label htmlFor="color" className="block text-gray-700 font-semibold mb-1">
+            Color:
+          </label>
+          <input
+            type="color"
+            id="color"
+            value={color}
+            onChange={handleColorChange}
+            className="border border-gray-300 px-3 py-2 w-full h-[35px] rounded-md"
+          />
+        </div>
       </div>
-      {width && height && <Shape width={width} height={height} shape={shape} />}
+      {width && height && <Shape width={width} height={height} shape={shape} color={color} />}
       {width && height && (
         <div className="mt-4">
           <div className="relative max-w-2xl mx-auto mt-24">

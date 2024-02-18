@@ -1,16 +1,17 @@
 interface ShapeProps {
     width : string;
     height : string;
-    shape : string
+    shape : string;
+    color : string;
 }
-const Shape = ({ width, height, shape }: ShapeProps) => {
+const Shape = ({ width, height, shape , color}: ShapeProps) => {
   let style = {};
   switch (shape) {
     case 'rectangle':
       style = {
         width: `${width}px`,
         height: `${height}px`,
-        backgroundColor: 'blue',
+        backgroundColor: color,
       };
       break;
     case 'circle':
@@ -18,7 +19,7 @@ const Shape = ({ width, height, shape }: ShapeProps) => {
         width: `${width}px`,
         height: `${height}px`,
         borderRadius: '50%',
-        backgroundColor: 'red',
+        backgroundColor: color,
       };
       break;
     case 'triangle':
@@ -27,7 +28,15 @@ const Shape = ({ width, height, shape }: ShapeProps) => {
         height: '0',
         borderLeft: `${width}px solid transparent`,
         borderRight: `${width}px solid transparent`,
-        borderBottom: `${height}px solid green`,
+        borderBottom: `${height}px solid ${color}`,
+      };
+      break;
+    case 'parallelogram':
+      style = {
+        width:`${width}px`,
+        height: `${height}px`,
+        transform: "skew(20deg)",
+        background : color,
       };
       break;
     default:
