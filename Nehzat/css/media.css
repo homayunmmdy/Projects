@@ -1,0 +1,656 @@
+@media (max-width: 1200px) {
+    .navigation_header_ul li .li_name{
+        font: 10.2px/2px iranSansMedium ;
+    }
+    .Ostan{
+        margin: 55px 0px 37px 0px;
+        /* height: 585px; */
+        height: 705px;
+    }
+}
+@media (min-width:1200px) {
+    .container_custom {
+        min-width: 1200px !important;
+        padding: 0;
+        position: relative;
+        
+    }
+    .bg_gold{
+        width: 81%;
+    }
+    .bargozideh_content:nth-child(1),
+     .bargozideh_content:nth-child(2),
+     .bargozideh_content:nth-child(3) {
+      margin-left:19px;
+     }
+     .bargozideh_content .cnc_text {
+      padding-top: 10px;
+     }
+     .Nehzat_right_img{
+        margin-left: 9px;
+    }
+    .Ostan{
+        height: 585px;
+        /* height: 705px; */
+    }
+}
+@media (max-width : 992px) {
+    .ayhea_tab{
+        flex-basis: 45%;
+        margin-bottom: 20px;
+    }
+    .khadamat_item {
+        margin-bottom: 18px;
+    }
+    .nashar_login {
+        width: 50%;
+        border-radius: 14px;
+        margin: 20px auto;
+        float: none;
+        clear: both;
+    }
+    .nashar_content{
+        height: 500px;
+    }
+    .nashare_item{
+        width: 32.3333333333%;
+        margin-bottom: 25px;
+    }
+    .nashare_item:last-child:before{
+        display: none;
+    }
+
+}
+
+@media (min-width:992px) {
+    .col-lg-1 {
+        width: 2.7777777778%;
+    }
+    .col-lg-cus-2{
+        width:5.5555555556%
+    }
+    .col-lg-cus-4{
+        width:11.11111111111111%
+
+    }
+    .col-lg-cus-6 {
+        width:16.6666666667%
+    }
+    .col-lg-cus-7{
+        width: 19.4444444444%
+    }
+    .col-lg-cus-8{
+        width: 20%
+    }
+    .col-lg-cus-14{
+        width: 38.8888888889%
+    }
+    .col-lg-cus-22 {
+        width:61.1111111111%
+    }
+    .col-lg-cus-24{
+        width:66.6666666667%;
+    }
+    .col-lg-cus-28 {
+        width:77.7777777778%   
+    }
+    .institutes_left{
+        padding-right: 6px;
+    }
+    .Image_right{
+        margin-right: 20px;
+    }
+    .lmage_left{
+        margin-left: 20px;
+    }
+    .ayeha_content_item_two ,
+    .ayeha_content_item_four
+    {
+        padding-right: 13px !important;
+    }
+    .ayeha_content_item_one ,
+    .ayeha_content_item_three
+    {
+        padding-left: 12px !important;
+    }
+    .institute_m_img {
+        padding-left: 24px;
+    }
+    .videos{
+        margin-right: 21px;
+    }  
+    /* .navigation_header_ul li .li_name{
+        font: 10.2px/2px iranSansMedium ;
+    } */
+ 
+ 
+}
+
+@media (max-width: 768px ) {
+    .container_custom {
+        max-width: 450px !important;
+        padding: 0;
+    }
+    .header_sec{
+        padding: 8.5px 17px 0px 22px;
+    }
+    .pdII_20{
+        padding: 16px;
+    }
+    .q-access .menu_icon{
+        position: absolute;
+        bottom: 0px;
+        top: 7px;
+        right: 83px;
+        cursor: pointer;
+    }
+    .menu_icon svg{
+        width: 22px;
+        height: 30px;
+    }
+    .item_one{
+        border-radius:10px 0 10px 10px;
+        box-shadow:5px 5px 9px -8px rgba(0,0,0,.83);
+        /* height:403px */
+        height: auto;
+        width: 100%;
+        /* height: 300px ; */
+    }
+    .item_two{
+        height: 530px;
+        border-radius: 10px;
+    }
+    .nashar_content{
+        height: 480px;
+    }
+    .control{
+        width: 101%;
+    }
+    /* .bg_gold{
+        width: 79%;
+    } */
+    .wrapper_space_nashar{
+        margin-bottom: 86px;
+    }
+    .nashar_value {
+        margin-top: 25px;
+        margin-right: -11px;
+        margin-left: -24px;
+        /* height: auto;
+        margin: 0 auto;
+        background-color: white;
+        margin-right: 10px; */
+    }
+    
+    .nashare_item{
+        width: 29.3%;
+        border: 1px solid #a6d8dd;
+        border-radius:20px;
+        margin-left:10px;
+        padding-top: 13px;
+        padding-bottom: 9px;
+    }
+    .nashare_item::before {
+        content: none;
+    }
+    .nashare_one{
+        margin-right: 10px;
+    }
+    .nashar_sub{
+        padding: 3px;
+    }
+    .clear_fix{
+        clear: both;
+        height: 0;
+        overflow: hidden;
+    }
+    .nashar_login {
+        width: 40%;
+        background-color:#0015a8;
+        border:1px solid #0015a8;
+        border-radius: 14px ;
+        margin: 20px auto;
+        float: none;
+    }
+    .nashar_login a{
+        color: #fff;
+        font: 13px/28px iranSansBold;
+        word-spacing: 2px;
+    }
+    /* .item_three{
+        height: 490px;
+    } */
+    .bargozideh_contents {
+        padding: 14px 16px 19px 0px;
+    }
+    .bargozideh_contents .bargozideh_content img {
+        height: 129px;
+    }
+    .bargozideh_contents .bargozideh_content .cnc_text {
+        padding-top: 10px;
+        padding-bottom: 22px;
+        height: auto;
+    }
+    .bargozideh_img img{
+        height: 130px;
+        margin-right: 2px;
+    }
+    .bargozideh_text{
+        margin-top: 50px;
+    }
+    .header_items{
+        margin-bottom: 22px;
+    }
+    /* .item_four{
+        height: 1168px;
+    } */
+    .institute_m_img img {
+        height: 272px;
+    }
+    .institutes_left{
+        padding-right: 6px;
+    }
+    .institutes_right .ins_text{
+        padding: 13px 0px 6px 10px;
+    }
+    .ins_text .ins_titter{
+        word-spacing: 1px;
+    }
+    .item_five_image{
+        margin-left: 21px;
+    }
+    .institutes_left img{
+        width: 194px;
+        height: 127px;
+    }
+    .ins_text_left{
+        width: calc(100% - 194px);
+        padding-top: 10px;
+        padding-right: 11px;
+    }
+    .ins_text_left .ins_text{
+        margin-right: -20px;
+        padding: 9px 0px 12px 0px;
+    }
+    .custome-line {
+        margin-top: 20px;
+        /* margin-top: 9px; */
+        margin-bottom: 10px;
+      }
+    .item_five_text{
+        margin-right: -10px;
+    }
+    /* .khadamat_item img{
+        min-width: 195px;
+        height: 166px;
+    } */
+    .khadamat_item {
+        width: 195px;
+        height: 166px;
+
+    }
+    .khadamat_img {
+        display: block;
+        width: 59px;
+        height: 85px;
+        margin-top: 5px;
+    }
+    .khadamat_text a {
+        font: 18px/22px iranSans;
+    }
+   .item_six{
+        height: 485px;
+        margin-bottom: 22px !important;
+   }
+   .khadamat_header{
+    margin: 19px 21px 16px 0px;
+    }
+    .Nehzat_right_img{
+       padding-left: 20px;
+   }
+   
+   .nashar_txt .nashar_titier {
+       font: 16px/26px iranSansMedium;
+       word-spacing: -1.5px;
+   }
+   .item_seven{
+
+       padding: 5px 21px 5px 21px;
+   }
+   .item_eight{
+       height: 510px;
+       /* margin: 5px 19px 0px 20px; */
+   }
+   .item_nine{
+       margin-top: 20px;
+       margin-bottom: 30px !important;
+       padding-bottom: 6px;
+    }
+     .linear_content .Titter {
+        margin-bottom: 7px;
+    }
+    .header_sec_video{
+        padding: 25px 0px 0px  0px;
+    }
+    /* .header-sec{
+        margin-top: 28px;
+        margin-bottom: 25px;
+    } */
+    .order-cus-1{
+        order: 1 !important;
+    }
+    .order-cus-2{
+        order: 2 !important;
+    }
+    .wrapper_space_video{
+        margin-bottom: 190px;
+    }
+    .main_video{
+        padding-top: 18px;
+    }
+    .header_video .header_video_title{
+        font: 12.5px/26px iranSansMedium;
+    }
+    .b_video{
+        margin: 0;
+    }
+    .vid{
+        height: 145px;
+        margin-bottom: 26px;
+    }
+    .video_des{
+        width: calc(100% - 230px);
+        margin: 10px 12px 10px 0px;
+    }
+   
+    .border_video{
+        border-bottom: 1px solid #000;
+        margin-bottom: 13px;
+        margin-top: 4px;
+    }
+    .main_video{
+        margin: 0;
+        height: 380px;
+    }
+    .main_videos {
+        padding-top: 40px;
+        margin-bottom: -10px;
+      }
+    .main_video img{
+        /* height: 280px; */
+        height: 300px;
+        width: 100%;
+    }
+    .videos img{
+        height: 144px;
+
+        margin-bottom: 40px !important;
+    }
+    .video {
+        width: 215px;
+        margin-left: 0;
+        height: 103px;
+        margin-bottom: 53px;
+    }
+    .video img{
+          width: 100%;
+
+    }
+    .video hr:first-child{
+        margin-top: 3px;
+    }
+    .videos hr{
+      margin-bottom: 14px;
+      margin-top: 0px;
+    }
+    .header_ayeha{
+        padding: 0;
+        border-radius:  20px  0 0 0;
+        padding-left: 30px;
+        margin-bottom: 27px;
+    }
+    .ayeha_tabs{
+        margin-top: 20px;
+        width: calc(100% - 140px);
+    }
+    .ayhea_tab{
+        flex-basis: 46%;
+        flex-flow: row wrap;
+        height: 50px;
+        padding-top: 8px;
+    }
+    .ayeha_logo{
+        background-color: blue;
+        background: url(/images/svg/aye_m.svg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        float:right;
+        width: 114px;
+        height: 148px;
+        margin: 66px 8px 0px -6px;
+    }
+    .ayhea_tab.active_item {
+        display:inline-block;
+        list-style-type:none;
+        border:2px solid #33c5d5;
+        color:#75cfd9;
+        font:17.3px iranSansMedium ;
+        border-radius:20px;
+        min-width:109px;
+        /* height: 39px; */
+        padding-top: 8px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        text-align:center;
+        cursor:pointer;
+    }
+    .ayeha_contents{
+        padding: 20px 18px 23px 22px;
+        margin: -12px 0px 0px -20px ;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .ayeha_img img{
+        height: 285px;
+    }
+    .ayeha_text_main {
+        margin-top: -40px;
+        padding-top: 0px;
+        margin-bottom: 37px;
+    }
+    .wrapper_cover_ayeha{
+        margin: 0;
+        margin-right: -20px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        padding: 0;
+        padding-right: 20px;
+        height: 1058px;
+    }
+    .ayeha_content_img{
+        height: auto;
+    }
+    .ayeha_content_img img{
+        height: 134px;
+    }
+    
+    .ayeha{
+        height: 848px;
+        margin-right: 0;
+    }
+    .wrapper_space_ayeha{
+        background-color:darkblue;
+        margin-top: -133px;
+        margin-bottom: -153px;
+        z-index: 0;
+    }
+ 
+    .Ostan{
+        margin: 55px 0px 37px 0px;
+        height: 795px;
+    }
+    .ostan_item_contents{
+        padding: 0 12px 10px 22px;
+    }
+    .left_map{
+        margin: 0;
+        padding-right: 19px;
+    }
+    .header_ostan{
+        margin: 17px 0px 33px 0px; 
+        padding-right: 25px;
+    }
+    .service_ostan{
+        margin-right: 18px;
+    }
+    .ostan_item_content hr{
+        color: #000;
+    }
+    /* .ostan_text .ins_text{
+        padding-bottom: 0;
+    }
+    .ostan_text .ins_text .ostan_paragraph{
+        margin-bottom: 0;
+    } */
+    .wrapper_space_Ostan{
+        margin-top: 34px;
+        z-index: -10;
+    } 
+    .wrapper_space_Images{
+        margin-top: -48px;
+    }
+    .header_sec_image{
+        padding-top: 11px;
+        /* padding-bottom: 10px; */
+    }
+    .mySwiper{
+        height: 308px;
+        
+    }
+    .media{
+        margin-top: 36px;
+    }
+    .media-left{
+        padding: 7px 21px 0px 6px;
+    }
+    .sec-right{
+        line-height: 26px;
+        padding-top: 22px;
+        padding-bottom: 0px;
+        font-size: 10;
+
+
+    }
+    .bg-copyRight{
+        font: 12px/19px IRANSans;
+        background: linear-gradient(180deg,rgba(15,53,57,1) 0%,rgba(0,66,73,1) 8%,rgba(0,66,73,1) 100%);
+    }
+    .cus_border{
+        background-color: #003339;
+        margin-top: 83px;
+        height: 13px;
+    }
+    .sec-right{
+        padding-top: 0;
+    }
+    .R_logo img{
+        width: 58px;
+        height: 50px;
+        position: absolute;
+        right: 70px;
+        bottom: 0px;
+        top: 106px;
+        left: 0px;
+        /* top: 398px; */
+    }
+
+}
+
+
+@media (min-width:767px) {
+    .item_one,
+    .item_three,
+    .item_four,
+    .item_five,
+    .item_six {
+        margin-left: 20px !important;
+    }
+
+    .pdx_10{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .ayeha_item{
+        margin-right: 10px;
+    }
+    .ayeha_content_item_two ,
+    .ayeha_content_item_four
+    {
+        padding-right: 13px !important;
+    }
+    .ayeha_content_item_one ,
+    .ayeha_content_item_three
+    {
+        padding-left: 12px !important;
+    }
+    .institute_m_img {
+        padding-left: 24px;
+    }
+    .navbar-nav {
+        float:left;
+        margin:0
+    }
+    
+
+}
+
+
+@media (max-width:490px) {
+    .container_custom {
+        max-width: 340px !important;
+    }
+
+    .p-absolute {
+        right: -10px !important;
+        left: -10px !important;
+    }
+    .header_logo img{
+        background:url('/client/themes/fa/main/img/logo_hd_fix.svg') no-repeat center 22px !important;
+        width: 175px;
+        padding-top: 6px;
+    }
+    .header_ayeha{
+        flex-direction: column;
+    }
+    .ayeha_tabs{
+        width: 100%;
+        margin-right: 0;
+    }
+    .ayeha_logo{
+        background-color: blue;
+        background: url(/images/svg/aye.svg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 193px;
+        height: 89px;
+        margin: 0 auto;
+        float: none;
+    }
+}
+@media (min-width:575px) {
+    .ayeha_text{
+        margin-bottom: 14px;
+    }
+    .ayeha_content_item_one ,
+    .ayeha_content_item_three{
+        padding-left: 11px;
+    }
+    .ayeha_content_item_two,
+    .ayeha_content_item_four{
+        padding-right: 11px;
+    }
+
+}
+
+
+        
